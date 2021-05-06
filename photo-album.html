@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="photo-album.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Photos</h1>
+    <div id="container-top">    
+      <div id="top-image-container">
+        <img src="images/image-1.jpg" alt="" id="top-image">        
+      </div>
+      <div id="file-container">
+        <h1>Store photo to Local Storage</h1>
+        <input type="file" id="file">
+        <div id="current-image-container">
+          <img id="current-image" src="" alt="current">
+        </div>
+      </div>      
+    </div>      
+      <div id="image-container">
+        <img src="images/image-1.jpg" alt="" class="images" name="image-1" onclick="enlargeImage()">
+        <img src="images/image-2.jpg" alt="" class="images" name="image-2" onclick="enlargeImage()">
+        <img src="images/image-3.jpg" alt="" class="images" name="image-3" onclick="enlargeImage()">
+        <img src="images/image-4.jpg" alt="" class="images" name="image-4" onclick="enlargeImage()">
+        <img src="images/image-5.jpg" alt="" class="images" name="image-5" onclick="enlargeImage()">
+        <img src="images/image-6.jpg" alt="" class="images" name="image-6" onclick="enlargeImage()">
+        <img src="images/image-7.jpg" alt="" class="images" name="image-7" onclick="enlargeImage()">
+        <img src="images/image-8.jpg" alt="" class="images" name="image-8" onclick="enlargeImage()">
+      </div>      
+    
+    <script src="photo-album.js"></script>
+  </body>
+  </html>
